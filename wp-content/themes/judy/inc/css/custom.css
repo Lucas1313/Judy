@@ -1,0 +1,41 @@
+body{
+	background:url('../images/background.jpg');
+}
+#page{
+	background:none;
+}
+.words {
+text-align: center;
+width: 100% !important;
+}
+.timing-words{
+	display:none;
+}
+.words li{
+	display:none;
+	list-style: none;
+	font-size:36px;
+	text-align:center;
+	color:white;
+	width: 100% !important;
+}
+.word-images{
+	position: absolute;
+	width: 100% !important;
+	top: 0;
+	left: 0;
+}
+.word-images li{
+	display:none;
+	position: absolute;
+	width: 100% !important;
+	top: 0;
+	left: 0;
+	
+}
+#comments{
+	display:none;
+}
+img{
+	border:none !important;
+} 
