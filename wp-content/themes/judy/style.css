@@ -12,6 +12,9 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+font-family: 'Istok Web', sans-serif;
+font-family: 'Muli', sans-serif;
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -22,7 +25,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: inherit;
+	font-family: Muli;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -73,7 +76,7 @@ body {
 }
 #page {
 	margin: 2em auto;
-	max-width: 1000px;
+	
 }
 #branding hgroup {
 	margin: 0 7.6%;
@@ -314,8 +317,8 @@ body {
 ----------------------------------------------- */
 
 body, input, textarea {
-	color: #373737;
-	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFF;
+	font: 15px "Muli";
 	font-weight: 300;
 	line-height: 1.625;
 }
@@ -331,7 +334,7 @@ h1,h2,h3,h4,h5,h6 {
 	clear: both;
 }
 hr {
-	background-color: #ccc;
+	background-color: #FFF;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.625em;
@@ -378,7 +381,7 @@ cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	font-family: Georgia, "Bitstream Charter", serif;
+	font-family: Muli;
 	font-style: italic;
 	font-weight: normal;
 	margin: 0 3em;
@@ -387,15 +390,15 @@ blockquote em, blockquote i, blockquote cite {
 	font-style: normal;
 }
 blockquote cite {
-	color: #666;
-	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	font: 12px "Muli";
 	font-weight: 300;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 }
 pre {
 	background: #f4f4f4;
-	font: 13px "Courier 10 Pitch", Courier, monospace;
+	font: 13px "Muli";
 	line-height: 1.5;
 	margin-bottom: 1.625em;
 	overflow: auto;
@@ -440,11 +443,11 @@ textarea {
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	border: 1px solid #ddd;
-	color: #888;
+	color: #fff;
 }
 input[type=text]:focus,
 textarea:focus {
-	color: #373737;
+	color: #ddd;
 }
 textarea {
 	padding-left: 3px;
@@ -468,7 +471,7 @@ input#searchsubmit {
 
 /* Links */
 a {
-	color: #1982d1;
+	color: #ddffff;
 	text-decoration: none;
 }
 a:focus,
@@ -894,7 +897,7 @@ p img,
 .wp-caption .wp-caption-text,
 .gallery-caption {
 	color: #666;
-	font-family: Georgia, serif;
+	font-family: Muli;
 	font-size: 12px;
 }
 .wp-caption .wp-caption-text {
