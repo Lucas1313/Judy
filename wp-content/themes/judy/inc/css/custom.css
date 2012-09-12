@@ -1,148 +1,179 @@
 body {
-	background: url('../images/background.jpg');
+    background: url('../images/background.jpg');
 }
 #page {
-	background: none;
+    background: none;
 }
 .singular.page .hentry {
-	padding: 0;
+    padding: 0;
 }
 #main {
-	clear: both;
-	padding: 0;
+    clear: both;
+    padding: 0;
 }
 #access {
-	background: none;
-	box-shadow: none;
+    background: none;
+    box-shadow: none;
+    margin: -29px -110px;
 }
 #branding {
-	border-top: none;
+    border-top: none;
 }
 .words {
-	text-align: center;
-	width: 100% !important;
+    text-align: center;
+    width: 100% !important;
 }
 .timing-words {
-	display: none;
+    display: none;
 }
 .words li {
-	display: none;
-	list-style: none;
-	font-size: 36px;
-	text-align: center;
-	color: white;
-	width: 100% !important;
+    display: none;
+    list-style: none;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    width: 100% !important;
 }
 .word-images {
-	position: absolute;
-	width: 100% !important;
-	top: 0;
-	left: 0;
+    position: absolute;
+    width: 100% !important;
+    top: 0;
+    left: 0;
 }
 .words h3 {
-	font-size: 69px;
-	text-transform: none;
+    font-size: 69px;
+    text-transform: none;
 }
 .word-images li {
-	display: none;
-	position: absolute;
-	width: 100% !important;
-	top: 0;
-	left: 0;
+    display: none;
+    position: absolute;
+    width: 100% !important;
+    top: 0;
+    left: 0;
 }
 #comments {
-	display: none;
+    display: none;
 }
 .home-navigation {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 999;
-	width: 100%;
-	display: none;
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    display: none;
 }
 img {
-	border: none !important;
+    border: none !important;
 }
 #searchform {
-	display: none;
+    display: none;
 }
 .entry-title {
-	color: white !important;
+    color: white !important;
 }
 label {
-	color: white;
-	text-shadow: 1px 1px 1px #EDE;
+    color: white;
+    text-shadow: 1px 1px 1px #EDE;
 }
 .singular .entry-title {
-	color: #FFF !important;
-	font-size: 36px;
-	font-weight: bold;
-	line-height: 48px;
-	display: none;
+    color: #FFF !important;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    display: none;
 }
 .contact-form {
-	background: url(../images/form-background.jpg) no-repeat -150px 10px;
-	height: 637px;
-	width: 800px;
+    background: url(../images/form-background.jpg) no-repeat -150px 10px;
+    height: 637px;
+    width: 800px;
 }
 .the-form {
-	margin: 0 auto;
-	width: 300px;
-	position: relative;
-	top: 116px;
-	left: -8px;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    top: 116px;
+    left: -8px;
 }
 .resume {
-	background: url(../images/text-background.jpg) no-repeat;
-	width: 1200px;
-	height: 803px;
+    background: url(../images/text-background.jpg) no-repeat;
+    width: 1200px;
+    height: 803px;
 }
 .resume-text {
-	width: 571px;
-	margin: auto;
-	font-size: 15px;
-	position: relative;
-	top: 164px;
-	line-height: 38px;
+    width: 571px;
+    margin: auto;
+    font-size: 15px;
+    position: relative;
+    top: 164px;
+    line-height: 38px;
 }
 .resume img {
-	position: relative;
-	top: 164px;
-	left: -6px;
-	opacity: 1.8;
-	box-shadow: 1px 1px 41px #CCC;
-	border: 2px black solid;
-	padding: 0;
+    position: relative;
+    top: 164px;
+    left: -6px;
+    opacity: 1.8;
+    box-shadow: 1px 1px 41px #CCC;
+    border: 2px black solid;
+    padding: 0;
 }
 input {
-	color: black;
+    color: black;
 }
 #access li:hover > a, #access ul ul :hover > a, #access a:focus {
-	background: none !important;
-	text-shadow: 1px 1px 5px #ddd;
-	color: #FFF;
+    background: none !important;
+    text-shadow: 1px 1px 5px #ddd;
+    color: #FFF;
 }
 #access a:visited {
-	font-size: 12px;
+    font-size: 12px;
 }
 #access a:hover {
-	font-size: 14px;
+    font-size: 14px;
 }
-.current_page_item a{
-	font-size:14px;
-	
+.current_page_item a {
+    font-size: 14px;
 }
 .singular #content, .left-sidebar.singular #content {
-margin: 0 auto;
-position: relative;
-width: auto;
-top:-38px;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    top: -38px;
 }
 .singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title {
-margin: 0 auto;
-
+    margin: 0 auto;
 }
-#cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject{
-	color:black;
+#cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject {
+    color: black;
+}
+.homepage-navigaton-bkg {
+    max-width: 80%;
+    max-height:80%
+}
+.icarius-button-bkg {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    opacity:0;
+}
+#navigation-dream, #navigation-glass {
+    position: absolute;
+    top: 8%;
+    font-size: 19px;
+    font-weight: bold;
+    left: 29%;    
+    height: 25px;
+    width: auto;
+    border-radius: 5px;
+    padding: 3px;
+    color: #FFF;
+    text-shadow: 1px 1px 5px white;
+}
+.navigation-1:hover{
+    cursor:pointer;
+    box-shadow: 3px 3px 10px #0cc;
+    font-size:21px;
+}
+#navigation-glass {
+    top: 33%;
+    left: 29%; 
 }

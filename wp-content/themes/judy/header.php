@@ -49,8 +49,9 @@
 <link href='http://fonts.googleapis.com/css?family=Istok+Web:700|Muli:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/inc/css/custom.css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/inc/js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/inc/js/jquery.path.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/inc/js/judy.js"></script>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
@@ -70,6 +71,10 @@
 	 */
 	wp_head();
 ?>
+<script>
+    var website = "<?php bloginfo('url')?>";
+    var template = "<?php bloginfo( 'template_url' ); ?>";
+</script>
 </head>
 
 <body <?php body_class(); ?>>
